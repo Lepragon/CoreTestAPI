@@ -28,6 +28,8 @@ namespace CoreTestAPI.Controllers
         {
             string key = "04e7bb8ee5174873a876392d6afbc24d";
 
+            int a = "asdasd";
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
