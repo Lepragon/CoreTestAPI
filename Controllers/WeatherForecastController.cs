@@ -26,6 +26,8 @@ namespace CoreTestAPI.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            string key = "04e7bb8ee5174873a876392d6afbc24d";
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
